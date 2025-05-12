@@ -34,21 +34,6 @@ template<typename abhi> abhi co1binary(ll n){abhi c=0;while(n){ c+=n&1; n>>=1;}r
 // templetes-> is under process
 void abhinavnagvanshi(){
     // abhinav nagvanshi
-    ll n;
-    cin>>n;
-    vec1 ans(n);
-    vecinput1(ans,n);
-
-    ll tt=(n+1)/2;
-    ll c=0;
-    for (int i = 0; i < n; i++){
-    if(abs(ans[i])<=abs(ans[0]))
-    c++;   
-    }
-    if(c>=tt)
-    cout<<"YES"<<endl;
-    else
-    cout<<"NO"<<endl;
 }
 //select the single or a multiple test case
 int main(){
